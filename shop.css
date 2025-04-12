@@ -101,27 +101,27 @@ button:hover {
     font-weight: 400;
     font-style: normal;
     width: 30vw;
-    height: 70vh;
+    height: 100vh;
     margin-left: 200px;
     background-color: rgb(230, 230, 230);
     padding-left: 50px;
     padding-top: 20px;
 }
 .pp2 {
-    font-size: 14px;
+    font-size: 24px;
 }
 .sp1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 .sp2 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
 }
 #img10 {
-    width: 300px;
-    height: 300px;
-    margin-left: -60px;
+    width: 500px;
+    height: 500px;
+    margin-left: -95px;
 }
 .search {
     width: 150px;
@@ -139,4 +139,59 @@ button:hover {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+.btn3 {
+    width: 100px;
+    height: 34px;
+    border-radius: 4px;
+    background-color: #DB4444;
+    color: white;
+    margin-left: 20px;
+    border: white solid 0;
+    transition: 1s;
+}
+.divi1 {
+    width: 200px;
+    height: 400px;
+    border: #8b8a8a 1px solid;
+    border-radius: 8px;
+    margin-left: 20px;
+    text-align: center;
+}
+.divi2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.divi3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.shop1 {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.shop2 {
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #DB4444;
+}
+.btt1 {
+    width: 170px;
+    height: 30px;
+    background-color: #000000;
+    color: #fafafa;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+    transition: 0.5s;
 }

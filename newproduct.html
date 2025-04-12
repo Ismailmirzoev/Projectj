@@ -29,23 +29,28 @@
                 <a href="./login.html"><button id="btn2">Log In</button></a>
         </div>
         <div class="div4">
-            <p class="cr1">Create Product</p>
-            <p class="cr2">Brand</p>
-            <input class="cr3" type="text"> <br> <br>
-            <p class="cr2">Model</p>
-            <input class="cr3" type="text"> <br> <br>
-            <p class="cr2">Category</p>
-            <input class="cr3" type="text"> <br> <br>
-            <p class="cr2">Description</p>
-            <textarea class="tx1" name="" id=""></textarea> <br> <br>
-            <p class="cr2">Price</p>
-            <input class="cr3" type="text"> <br> <br>
-            <p class="cr2">Image URL</p>
-            <input class="cr3" type="text"> <br> <br>
-            <img class="image1" src="" alt=""> <br> <br>
-            <button class="but1">Save</button>
-            <button class="but2">Reset</button>
+            <div class="child">
+                <div class="class">
+                    <p class="cr1">Create Product</p>
+                </div>
+                <p class="cr2">Brand</p>
+                <input id="inp10" class="cr3" type="text"> <br> <br>
+                <p class="cr2">Model</p>
+                <input id="inp11" class="cr3" type="text"> <br> <br>
+                <p class="cr2">Category</p>
+                <input id="inp12" class="cr3" type="text"> <br> <br>
+                <p class="cr2">Description</p>
+                <textarea id="inp13" class="tx1" name="" id=""></textarea> <br> <br>
+                <p class="cr2">Price</p>
+                <input id="inp14" class="cr3" type="text"> <br> <br>
+                <p class="cr2">Image URL</p>
+                <input oninput="func3()" id="inp15" class="cr3" type="text"> <br> <br>
+                <img class="image1" src="" alt=""> <br> <br>
+                <button onclick="func1()" class="but1">Save</button>
+                <button onclick="func2()" class="but2">Reset</button>
+            </div>
         </div>
     </div>
+    <script src="./newproduct.js"></script>
 </body>
 </html>
