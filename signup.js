@@ -23,6 +23,6 @@ function func1() {
         obj.pass = inp14.value;
         localStorage.setItem(`user ${a++}`, JSON.stringify(obj));
         localStorage.setItem("num", a);
-        alert("Успешно!");
         window.location.href = "login.html";
+        alert("Успешно!");
 }

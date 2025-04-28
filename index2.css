@@ -94,6 +94,16 @@ button:hover {
     transition: 1s;
     transform: scale(1.1);
 }
+.icon1 {
+    border: white solid 0;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+.icon1:hover {
+    transition: 0.5s;
+    font-size: 21px;
+}
 #img1 {
     width: 99vw;
 }

@@ -183,3 +183,11 @@ button:hover {
     margin-left: 120px;
     margin-top: 60px;
 }
+.vvv {
+    font-size: 17px;
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

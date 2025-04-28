@@ -104,11 +104,11 @@ button:hover {
     font-weight: 400;
     font-style: normal;
 }
-.inp11 {
+#inp11 {
     width: 400px;
     height: 30px;
 }
-.inp12 {
+#inp12 {
     width: 400px;
     height: 30px;
 }

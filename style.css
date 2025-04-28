@@ -389,3 +389,10 @@ button:hover {
 #dc1 {
     margin-left: 20px;
 }
+#inp1 {
+    width: 200px;
+    height: 40px;
+    background-color: #fafafa;
+    border: white solid 1px;
+    color: #000000;
+}

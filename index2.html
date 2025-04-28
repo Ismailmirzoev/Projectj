@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./index2.css">
     <title>Document</title>
 </head>
-<body>
+<body onload="func2()">
     <div class="parent">
         <div class="child1">
             <div class="div1">
@@ -22,11 +22,13 @@
                 <p><a class="p2" href="./shop.html">Shop</a></p>
                 <input id="inp1" type="text" placeholder="What are you looking for?">
                 <button id="icon1"><i class="fa-solid fa-magnifying-glass"></i></button>
-                <p class="vvv">username</p>
-                <a href="./login.html"><button id="btn2">Log In</button></a>
+                <a href="./shop.html"><button class="icon1"><i class="fa-solid fa-basket-shopping"></i></button></a>
+                <a href="./user.html"><button class="icon1"><i class="fa-solid fa-user"></i></button></a>
+                <p class="vvv">Username</p>
+                <button onclick="func1()" id="btn2">Log Out</button>
             </div>
             <div>
-                <img id="img1" src="https://s3-alpha-sig.figma.com/img/dc40/ba89/7215f42e5883a64157f0aa3a4d1a866a?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QHQftgDXauknH2BEait2m45YAh3NXQ2M0NVVLkiccfn4nzqPPHl7qqr8zjNPGkKx-TzQWyIdVc7O7-yGfZ6eQ6uJDvUPxDDHUAmbu6tHXI8gKc8LRInE3IXw0voP~O6Ke1fUxuEtfPuE79JLNSku~1zRzqctK~vSedYTuZGhlnuLiZ4qtJ6rwORlRC2ECmXQAAAe6UUsi8la1To-bEQsajj~bKOQ5G82qLxbghYE5W5NqI5F-nOGhunAIi7uIXR3Ub5q4bwuSH-8Sy2DCzQ1Msw5e4oSRCjXmtq0fygc-UB7WIVk9S9IL79vg1f-ZMNyP45riWtI0tpiBzHd4KoowQ__" alt="">
+                <img id="img1" src="https://s3-alpha-sig.figma.com/img/dc40/ba89/7215f42e5883a64157f0aa3a4d1a866a?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ehBRHWQiMPeh1Qm5lowHf13haF5BlD-Fwp-saYPEIyuAFxaLsIS1qz2yqUklJrMQSQNM~6VmSywygicBsrB-E08Ybtmeztxwr6~D84pfv7mt26v09V2e6cGClzgC5uH8zyQyMnQofsErnmuqgxqxxdAdi9QHxxFFCjBOQwFWwQIg2ihuPJZqlLw~6rCLnBOsw7JBDr8w2r53wp3tyMP-UD~iaytnYZI5k-Yz6JQbcgNp-ad78-~BGuzyi6xfJYeT5ZjV~6zVq~rkd8YFcr~1mUPCabLTdni0VpZrWnCo0fI5t7C7s6co5uHQUwuGYPIHcgM91gyysE~AOAKKgOv8pw__" alt="">
             </div>
             <div class="div3">
                 <div id="divv1">
@@ -34,19 +36,19 @@
                 </div> <br> <br> <br> <br>
                 <div class="di1">
                     <div class="divv2">
-                        <img class="imgg1" src="https://s3-alpha-sig.figma.com/img/8d64/bd31/d2eda88ccb4cc71f499a5d94c2a5bd61?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=RiW2TiP4EGdOdTfTrf6-910zSxp6w2s1-DAgAWy7r~BYisKlRi62ezU2ESwwier9~2IlHXx5ntPPfmwM7KtPCeKsxT3PGnjVEgngxx37acZMYELVMPeQYSOz59PU7kacRMMXcYl1SYM4n3IhSCXZh~3EgZLpIWkpzJzkdG~HcMkcM3AVYG8ktrll9dVedQNnsHuK0nfbST0LPZqGcnctto0aW-5X8JqVdXpg8AS67wn21QyUdeqeeUIBRY3oFMf7dKGOQft9uLwEmD60oAb5506~n0iWveb~Jn3zJeDW8k9SJ-SqPJhKf34MtgSIW3ZZc8TBI~~V8kZQyFUHkLqA3g__" alt=""> <br>
+                        <img class="imgg1" src="https://s3-alpha-sig.figma.com/img/8d64/bd31/d2eda88ccb4cc71f499a5d94c2a5bd61?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ekJOG-71giKiggeiKWEvp1GVYPtO9RFJIVP72a1k7TcWpid-oCcOxILj8hO21mFt18LKEhYmZPv3uZWwvvN-g9ouzqNg16V4nouqfdOLSgaJajDRCdN646brSurKHE-W5Wu6y8zlhxlHNSq3Th7SM~QwOFFfmW2woG0OHOomiUQxLqFLJ8Vu0MeyCLfR0UmZJbInYeO4oMRj7xcbHjvPcWhl8uHv7WZ7FooNVVn4jPFE3lIrqGZ-hrD2vf0A45ADvNMPLPznu7r5tDKbbV3gvDp~azAGJY45J3u3mM91RR-nxAvOQSm05xmeCMUPha9-VZKjdjdIGl192ab5DEY9Ig__" alt=""> <br>
                         <div id="dc1">
                             <h1 class="hp1">HeadBand</h1>
                             <a href="./shop.html"><button class="bt">Collection <i class="fa-solid fa-arrow-right"></i></button></a>
                         </div>
                     </div>
                     <div class="divv3">
-                        <img class="imgg2" src="https://s3-alpha-sig.figma.com/img/637b/a5ec/bba8691512e22e4a663249a145b54afb?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=takAPtL4TQsVJgVOdzOWvr9DFPO-fSlIMxaz5YEZnQOIrNweZ9KW3EugrGNzAJy0w~GFjVy3e~161kKkrYY2dJiV3cpl3-j6EXaJM1dGaNDXtFZJ9MjrKoJv81QMNoqkLKSgXSpee56gjBxhuZLMhUdBHSEY4b24f07xydd2nEjWlyKtDAik3FTjBnzsK5AJhOlPYU12zypSpFCZqsuJr9kqBfhJavRI1qIQavHA6DioFWSPvJ2R6zfsb1iWTTuCtkLCZDGWZuaaG7rrNv8zFn~8kNqh2hNgIn~KEZ0HNOFq6Ds-rvt8bxWpldsFHZwxaK8RracaGOukOLffdZqp0g__" alt=""> 
+                        <img class="imgg2" src="https://s3-alpha-sig.figma.com/img/637b/a5ec/bba8691512e22e4a663249a145b54afb?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=PH~xG94601VJ8AsKRdZViJjtk6gCOq5rcO01p~eTwTZ7cdsAzFPBUieCAYjx5H7FRa7q6L96Z-8jTG8d44JExkcs3Qt5SmxUkTUsHCqGMvPokGxI-UrIjHmJltt8Y~KtzFWFGv2Lzrkfq7pubiLYLvPbSN-v0wj~7O-t~YhuPNdnTS71rmLP2Ug4l-UwexpiUzx5ZpfRRIaoEZFSOnY6IovrLCeHypBHc7SYbgNXbh0npHqMqwl3GYja3aTozsW~6EUNvvIX2H11h-OQgmLKmiLrl6BVbh0zzBgLxdiudVsFBemSwQC1jTkp4DOFEsDiBwYFJBPYZFVEMLt5FGfIeg__" alt=""> 
                         <div class="dc2">
                             <h1 class="hp1">HeadBand</h1>
                             <a href="./shop.html"><button class="bt">Collection <i class="fa-solid fa-arrow-right"></i></button></a>
                         </div> <br>
-                        <img class="imgg3" src="https://s3-alpha-sig.figma.com/img/aa22/058c/7c7ed32ee246b8fb8e8bfa7eff762cc4?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=l3rZYUNsozUD9mLUS-e8-6HSWzMDtOohOkGndiSMOKLhBfw~gZlsZRIJXl6lssxow0wq1x3Bl7kuBv4u2RKWEILzGCbUsAsq-An0Wyx4HtFemI6sQGSQ9L6vaWvo02QfQAJuHaKacc1NxAAnWrFtiaGNG-l38koohaOM5P2lZD1z-wgCRkLcU5yKeNEKylyIkjldSdORdbLHCMJ9b4G1lxMl-znq3Clqu5c~bYpbAUYJtUmwusCrA~w64186D~TTspRbrizCOyT9wi~U3ZJt-78SIXA8u91PMDoqP5iG9z5SRorkgKms2VCH9igy5vxP2cv2aL7Y8-f6uqgMWjl7eA__" alt="">
+                        <img class="imgg3" src="https://s3-alpha-sig.figma.com/img/aa22/058c/7c7ed32ee246b8fb8e8bfa7eff762cc4?Expires=1746403200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=BV-El1-C-XOoKigN9Qe9-PvrVQ-rPL9mzDGqOnMxrQgX-qybO2clawF0YtXwtQV4gzOwnLwUAep9tKN6JMP7HXtWUjp18U47xUxfZF8vjLIEmVmans5lGeBsPWGwAqriBYgZMEQrswww7RgkjQLErmKinPmQHlVzn11qW-DSYxxKevMaVkT7PoAQJvwiN5c-G9m67-CtfKETOPwaghiVbnz~zzFX6uw-C4WeH-rvNpSKUxY0gPxx6iXC8946QD~By4RFOvzHkm8qRJH5DAiGEYNpH7Xml72CpLatKuoaECDODXSdTEvMqGBvE3iGgoXkfI0AyGdRCX0mm3OS3Th3qA__" alt="">
                         <div class="dc2">
                             <h1 class="hp1">HeadBand</h1>
                             <a href="./shop.html"><button class="bt">Collection <i class="fa-solid fa-arrow-right"></i></button></a>
@@ -82,26 +84,26 @@
                 </div>
                 <div class="divvi">
                     <div class="div6">
-                        <img class="img2" src="https://s3-alpha-sig.figma.com/img/28f6/89ad/f4fb9f1abffb61e573ab1e916484b396?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=czkoZUiV5B1vrnCeb1qw7Z8NCkgQaAwa1wLjjVRW~MiKLuwv2KkSJU6gVi3Oa6tn40QsFwe84b42g2vSCLKZPt52pftmoP8DxFfz0OXGebMl6Jormn6YIluAOqulllA3m9JnQCuw4pX-nUtd8rQY~XB18DyShRANNgO9Zn0FyDgkzSWDrfSC5ugldXq-uaSoeV7dI5~aQMmtuzMxTYRuNWrQYX8g5qwqw-tpfqq~Kh0tAEQC6Bx3yf0XmBAD-qVMCmxs5JK5sCJrPr7JBW73zAHZsAqfCzF1VhZzuResZTsjyIEw0COdb52-RtVVqtF2~jUkoJw2f1fIzFcxyrwSxQ__" alt="">
-                        <img class="img3" src="https://s3-alpha-sig.figma.com/img/20ee/b9db/dfc0147f5da888f4134b80f651192162?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QNyscxko~EflShZLZzLKIoSicWJVxxBcfYETzKMemSoXtC34idAJaJ~IQZWsNJ3NiBEjQfR4S6rBAIqHPFYFlingbU-YnCnFoaHMXp6-yprRhUmWjnYEEp-fMe2DbBxbHPi4EHyWHxGVZBVLrRiamPgYzB-GgUfqLIAgjC-KgIH9OBrvgcj2ALtjBbR0kHhuGlf1k-X8wVpaaRr1CVM4H9aDAoPqor1vzEHITLX2tOWJ29AkBY43F3RXBM8N7dFU2lWR353wdOQgvxj9qwT3VqmK3~HSz9GRZByuo0t~2ZDY~eOGwXj~Z63jg7Sl~HPFLk1E1pnpghBpIRD40lhcSw__" alt=""> <br> <br> <br> <br>
+                        <img class="img2" src="https://s3-alpha-sig.figma.com/img/28f6/89ad/f4fb9f1abffb61e573ab1e916484b396?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=kX5nF-Oe2BZTOP7ORojVdXreE~2ABzPapl61hLKfNY6y31KLlXAbkRC4zREKE-zr9tQURVcxxJrRhfh2MGWjSMFJ3bQKb2tA3mrc~ebrAI4XV5WyeFBEaYOdCWdAfMj8f7zVzjNH5hUbH9kfDQ8-onaU4jDOqJSdylRB3b7m8aac2MlVyBnfFXYpFS7iLcmh34XT-8LaonkPiVoUIeZSkru3LI19dk4xsXqS7QX6W8aOsoKkUILeDzOE1S3R0rzSThMksmZHx6s6eOCax7fzkcj2hpt7d0T5Qo6-WRsdRIKC6lZsYf9uv-JnfMGmVcch1orF4lUaoMnoPzXNoiTUzQ__" alt="">
+                        <img class="img3" src="https://s3-alpha-sig.figma.com/img/20ee/b9db/dfc0147f5da888f4134b80f651192162?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MLBaXxVMWompI5-TH0pLOHIOrpIInA6ZSAoBWB0RtBJnnnxhtn9gNsnvNBvrx5OQMSkJx8CE23~NnOgQwEhQNscJy4ALGjyc6FxSrhrDNc196mZpGTBahtMVxYyocO-vWwpND3Pt9~EUmYXR4XLG4ncMs1EuzD-~zn556ljI2eDZZNZ-JUZyO-0AsYVqMp0wYMkMuYOk4oQw1fnKxvR4h3019JMKDQo0kQg9jgVeAlPKgd1e-faW9gx75BggzH15Il5twgSKJMQyxRSBSYJBhFmMlnJG57mKhedwQ3APMeegrwP1P~pNiNdK55qTLxhDkSzcOs48K8i6F8vqQUuNMA__" alt=""> <br> <br> <br> <br> 
                         <p class="pp1">Popular Products</p> <br>
-                        <p class="pp2">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+                        <p class="pp2">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p><br>
                         <a href="./shop.html"><button class="btn3">Shop Now</button></a> <br>
                     </div>
                     <div class="div6">
-                        <img class="img4" src="https://s3-alpha-sig.figma.com/img/03f8/8b4c/be5df929ebde7688c573f3bf280a1c07?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=EtGd6MObEt-tX5ShrFAey4FLtcfUrE7a11UQc9f4wtwrw28J4JIwhQF4BXW8AiIHTk56XRawU~4vvx-cs5C4h1VMoaiQKw4K0RdbuzYkoVbDN5vuIQIlIFHihCEZ6esFwDK~9o1PfeuE-sUt~f0HaqLxP3F~FQqP5tjfJmBFHDqfKY74VJbI5imXGt0g2W8g67mFggUACmhPw1Pc-ItM-2PSYmn9iNLnqy-CkuGTXYxciiiS5Bvtv~k40AXajQr2UhyyokoJClci7zeMVDEdec6Jr4gyDE98qiHrrNkKUmPBNd0KOEvRlkwfNxgE8loJ46Z9UAh7QcF3dpzu~uR4Pw__" alt=""> <br>
+                        <img class="img4" src="https://s3-alpha-sig.figma.com/img/03f8/8b4c/be5df929ebde7688c573f3bf280a1c07?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Wf-hse2R2vUGBSHfVYpez~5qCQQXuFbc-~Hy6jnrnp-nIMnekv9hO3ZOkIBDLvVUB9P9hCWjksXXntbjMK7DQdKDjsPZiBgCZ4sAS~hBsyDFGLyJA0Kx2SZ4vUyWaRQDwwrWmt8r1C9J1SKYub0ngbb24DR6kFCKi1R~~sjEti9cRABSfmJLOOdaU0bfda6QfE0j8q80H27Py33xwG5CfN2wQmMKZD4x2fuLFpmVDmSeryM9K4bejMCG0mqdWr6qJQLGb8JE6kU7yTu-F0jHJNaUpv2jRjVIw6R-uSF2h08rpFqGzQ4r8r8PijBzyOp5fYr1DRHZyrxkS0z~WEi0yw__" alt=""> <br>
                         <p class="pp1">Ipad Pro</p> <br>
                         <p class="pp2">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p> <br>
                         <a href="./shop.html"><button class="btn3">Shop Now</button></a> <br>
                     </div>
                     <div class="div6">
-                        <img class="img5" src="https://s3-alpha-sig.figma.com/img/42ed/e37f/5b7179151ff1aece13de5d13a9577763?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=roKfaGO~NnaR79F1O7H2xqKPTbAZXvKTbicNhrWkyx3ZAsQoM5xTc2Fh8jTHBi-mCmim~pR4pSkpIJBsAzEC6U29AqyrtVZFoyoYgjcQGepb1IjSZ6nwvlpA6sgMu1pxb5HEqvYnF1fOJYk2--B8adgkiK1PwxXfYjAt53x4bh75EsLiDyBDWVOE9ZKZdDTs5sj5aPJn6raCeIyYQRKNr3fw1jBdkovV82WcGHyoxzJT59MBumN7VT4hejoKfn0PzP4akxpcpmkLg2wEP788od0A~obnr03AAtOUUJFLx4E6JI~TBOn3S6qW~UtT~KWoU0KW~OsBeXIJoMXjty9Drg__" alt=""> <br>
+                        <img class="img5" src="https://s3-alpha-sig.figma.com/img/42ed/e37f/5b7179151ff1aece13de5d13a9577763?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=uGuhB4iDoFcHu9X4UaatQ9xNvP2o6umav9nWDylyafjJNWtWIZdwC1FeKPIHXKvS2yuccgR5R-32LXZvx2OU0JIM~NE7va5VPUTdq-kvzij3JjizTrxR4hT-RiUrXLhsonl0CI3MKJKjNwjO4ADu09dNQgVJ45WQ-6DsPPWZiW-OwpAqzWepq~L-o5rAzXUwxzYL3hlR-BCsZhXqGYWYddeMhPukwdocUzuccCNbHzK6ygjFZKLQEeC1HNpXe5MZhiHymfeA8crMp8YK7qbS1ZSIT2pktkAgzDZuhOvOg7tm-sbpqjjtaLpXH3nJRaDZNJmTdJt2c11ZRLeVX5itYg__" alt=""> <br>
                         <p class="pp1">Samsung Galaxy </p> <br>
                         <p class="pp2">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p> <br>
                         <a href="./shop.html"><button class="btn3">Shop Now</button></a> <br>
                     </div>
                     <div class="div6"> 
-                        <img class="img6" src="https://s3-alpha-sig.figma.com/img/841a/2189/2886e7ecb5d47ea5c6ae4bebd8ac7b6a?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=oYufPptQIW36EmDxmpLgKe8zGiCypkayU67JrIQSl8QuuWohQGDk~3e-mCWBoLeTFXRE7xp3HA0D908W~BbdjfZxHZpRXfaZNZplgFkQcYy5AsWiyvjnjGY8X5Hl0HuS18SJB5UCXibJ6OWOjQAnoQhgOlWhVytXARzwlAv0HLXvABmkmk1hNgD7Pn9QCoOGczphXLurKJFgTtLlr8y02dz4IAv89nSDHQkD05Jo3puwFJr569mMwI5-98ZMPE7wmZvmF1cPnT4Hc~azWVyEw3h7ng~w8qoa99zzfT6SOhJtu0kH1Uj3euJDn5COY5H1aHc2RBLvis~uf~e2Ho0faw__" alt=""> <br>
+                        <img class="img6" src="https://s3-alpha-sig.figma.com/img/841a/2189/2886e7ecb5d47ea5c6ae4bebd8ac7b6a?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=a46L9XPeqG8gTWW86qCYRpsBGZi63YN1QsF~g7GTmT4lJIpjHuz7HXh2uhH-Qvgl82w6gPWZA2QwyQiA3QrV8z0WxTf6SidSjF0MxiVSkdc7KuFzT07OsIltp1MyrAlWm-046cyawpNabrE14sdcsYlNMzfRWc4OVTQhRVS3THsY2rsMd9lJ06Od6p0X-ZFmnj-WbHOV8Qs-apfBMdw5XZNpgLhq6~12oXbVs6oibwhhkBhqNn7~cKf5gesrzvGx~Zt5SjeKZ4YR8N0buxWj~dC2CQLVg7U~dGXivEieTwuoBMJXpdCwtTot5cyKYRkR~nDaJrhVFluBOOUNGWWEqw__" alt=""> <br>
                         <p class="pp1">Macbook Pro</p> <br>
                         <p class="pp2">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p> <br>
                         <a href="./shop.html"><button class="btn3">Shop Now</button></a> <br>
@@ -139,9 +141,9 @@
                 <div class="divv6">
                     <p class="p7">Download App</p><br>
                     <p>Save $3 with App New User Only</p><br>
-                    <img class="img7" src="https://s3-alpha-sig.figma.com/img/9913/87c0/5dd6d44594e01b675513068803e2426d?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=sNDdbhn6ES09Sd~CgWs-EFEivOEcVOslhD0lL5nc235tZpp~JLmqoSvUXxQnbVMNkR3-gSgCfsj9qQJmv383-04gGjzZNQsSyR30quidd166~mcqWF4uq2DrfzJKp4u~-pvMWXRP96u9oIqpQFrL9ZFfoZlTkYnCIjZOARMH2pDhbEPgxOgrhz6YrX9IDm0fbhqDepMM14mGBBWf86RdW~W~2fykGcmCGb4dHLPj~f3kvoiNXvEh8u9TmaspMkiH8YAX~d3flaj9LpfWJmQs86I3YuXM-n2ayQEVgbOFEpQ-HSojpjlGonYAVt7Y2NGCVyuLWdhOswUF4IZnNLgqQw__" alt="">
-                    <img class="img8" src="https://s3-alpha-sig.figma.com/img/a61d/4c71/10b18ab55a1e1a07ebf54a46ebb07284?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=A-~u-hc~nVX3Bt4O1g9O~9K0BcwkCQQKnveNUBGhfyqWr3JTrZMiPSS3WqFZ-613YLbtEHi~w4fHVzvJe8kX7kvFg6H-iOaLxf5MuHnpLddOp1QxiHwTOhV3kUycHlsivjkXCFBudgY84gEEgAI2Jwb-2bHZZiyU5ndVS91PpQLottOXN0w~TYdhv6aMYADp8Cd519JKGIWXV9vJ-WOF1hctz9HB3hMeEGZdmvyJxtqrzFf4NKaXf4dZQ8M9csm6G2Msh~NiYDEpslWJUz48GkKJTaewrCQCVpZoHwFzh1owte3lMFL-FVLCjFHKJzCvoxrGAVFcs6M88fJqFlTyhg__" alt="">
-                    <img class="img9" src="https://s3-alpha-sig.figma.com/img/3893/2d5a/ccb54c528f9bcf326ca48ea29bd6d890?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=kSU3mKmH4h5bCXQSDcMV8~xOmvs-Zymix73~zkBMOODyPcMcFjdeNVTmLPPXoe6M5t69O1rusJz3dNIiaEEAwEN5Oli0d99cDL9MSMbepzXLher4KxYeCQYSxIJoahAIoW7KcEZ4FSjj5DuqfHacIqv34tsskM3eWQ4lcgBkbKC2DEMNrCvwH3jED02qZmV3zPC4SbrQCZ0JHTNxO7W324cxeudaPtymcKs~2KObPZU8uHU6p5w3zYba0GoRPvAYgwDtJ-HiLxduUT6bJMPctVMk68d~65QcQ4r2uF6~wwRWRmJxCkfxpIaikpFAF18tRVHIQXa5NwVVAJIgvarVhA__" alt=""> <br> <br>
+                    <img class="img7" src="https://s3-alpha-sig.figma.com/img/9913/87c0/5dd6d44594e01b675513068803e2426d?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=V2R6pYbCTKdQmFAttEEG2xvzM-9BYW6LjHrVdll2oXYLlHDbkyj4qAh6as8~Mjdh4YyDmkxrRvEANSPg58Bsf0sqLqeTA~XLQQBSbYpoDzaDaAyxfoq9javj2rjhkQa06whVBP-4lmQ3BJnqJRc-uksO~dCPDKyYseml5Q89i8B2M8P0ed9APFV4DRk4v1~wud2eswqGnIiaDZ~cNe-rAoTLbb9BdmCno5RCdnfwXNXM-Gs8lQ4GLy3XGddOG~oit7akwUrPLgOamMvFtXPJzYn9KgUHZi2L157JXNsoKpH76BiNJjzvXOn9ziZuIs8h2WKzbYdxARYbpHnMUwjN6A__" alt="">
+                    <img class="img8" src="https://s3-alpha-sig.figma.com/img/a61d/4c71/10b18ab55a1e1a07ebf54a46ebb07284?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ZjI4nXN8D-Sft9xzhEDaq~C9~x1P63YlklzxCLKdwchHVumSgPE88386JZziBmsRfDecVUEp5Fm1cOOr-hUkrXVYwxT7EjOz0kOP7Ys-3dBvhyz5V3iL0-zjwqgQ72mUqnZPB9VFWNSDbGosY2n1MmSfX~xLXXr4K~DJ~85StI2-4w2VJMLs93OMa38sOgJt~7K90PrwPvBxPlm9N73qCWuc9T4oxF~Br06HrS1Tex07vRtdsXsgeipiQxNsLAaXFaqHj7zJLoB53L6xfBljgc~xaHGWuSY88UjbAkO~jmUl7rPQcjQAxgeODJpZvOnLc9-gK8gneqGgqzMqUQgJQQ__" alt="">
+                    <img class="img9" src="https://s3-alpha-sig.figma.com/img/3893/2d5a/ccb54c528f9bcf326ca48ea29bd6d890?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fVAnQe6AaYUais0Gm6Cr4Rq80ykp2knK~GDPp6w2-sQYZkZ7xI9g4-7J4Uy~UwR2cAaqge3fS4OXjQsLEn6kcRyF8LA0Pa3HcXRfAcSvzp4h2-~hrFp6a0LPWIHeGvcy6OGDX56lzu7N2LrNCPpAX-9KgXDeiZJPIZlxdPnU473eXNsJymk37WZzZlsUZBxjtuKMUJCZKJMq-yU~1N5huoKGSGWt1i6izkJhPggu6Bh~ViOY3zMa-YaaUj4SVQmo66csyuNxbDL57mxGrZcY7K4lzQ2b9p1bssVcLmrKwL36Lt35pFffj0Nqis7Jlhkg-XtwoelzUxIRQsjwcxMbwA__" alt=""> <br> <br>
                     <i class="fa-brands fa-facebook-f"></i>
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-instagram"></i>
@@ -151,6 +153,6 @@
         </div>
     </div>
 
-    <script src=""></script>
+    <script src="./index2.js"></script>
 </body>
 </html>

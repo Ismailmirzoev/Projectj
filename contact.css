@@ -140,6 +140,7 @@ button:hover {
     background-color: #F5F5F5;
     font-size: 16px;
     padding-left: 20px;
+    border: white solid 1px;
 }
 .ta1 {
     width: 752px;
@@ -151,6 +152,7 @@ button:hover {
     font-size: 16px;
     padding-left: 20px;
     padding-top: 20px;
+    border: white solid 1px;
 }
 .btn1 {
     width: 215px;
