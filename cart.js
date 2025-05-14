@@ -16,18 +16,20 @@ for(let i = 0; i < localStorage.length; i++) {
                let a = arr.indexOf(index);
                let sub1 = document.getElementsByClassName("sub");
                let inp1 = document.getElementsByClassName("inpp1");
+               localStorage.setItem()
                sub1[a].innerHTML = inp1[a].value * JSON.parse(localStorage.getItem(localStorage.key(index))).price + "$";
                let subtot = sub1[a].innerHTML;
-               window.location.reload();
-           }
-        tbody.append(tr);
-        function delete1(index) {
-            localStorage.removeItem(localStorage.key(index));
-            window.location.reload();
-        }
+               localStorage.setItem("subtot", subtot);
+               window.location.reload(1);
+            }
+            tbody.append(tr);
+            function delete1(index) {
+                localStorage.removeItem(localStorage.key(index));
+                window.location.reload();
+            }
     }
 }
- 
+
 // localStorage.clear();
 let class1 = document.getElementById("class1");
 function funcc1() {
@@ -44,15 +46,16 @@ function functt2() {
         vvv.innerHTML = nick;
         btn.innerHTML = "Log Out";
     }
-for(let i = 0; i < localStorage.length; i++) {
-    if (!localStorage.key(i).search("shop")) {
-        let obj = localStorage.getItem("subtot");
-        let span1 = document.getElementsByClassName("span1")[0];
-        let span2 = document.getElementsByClassName("span3")[0];
-        span1.innerHTML = obj;
-        span2.innerHTML = obj; 
+    for(let i = 0; i < localStorage.length; i++) {
+        if (!localStorage.key(i).search("shop")) {
+            let obj = localStorage.getItem("subtot");
+            let span1 = document.getElementsByClassName("span1")[0];
+            let span2 = document.getElementsByClassName("span3")[0];
+            span1.innerHTML = obj;
+            span2.innerHTML = obj; 
+        }
     }
-}
+    inp1.value = localStorage.getItem("inp22");
 }
 function func1() {
         localStorage.removeItem("nickname");
